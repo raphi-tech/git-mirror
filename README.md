@@ -1,0 +1,1 @@
+# Git mirroring with bash
