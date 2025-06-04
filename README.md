@@ -1,4 +1,4 @@
 # Git mirroring with bash
 
-## Projektbeschrieb
+## Project description
 Push from GitLab to Gitea automatically
