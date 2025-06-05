@@ -58,9 +58,10 @@
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-17" target="SjJ99Vo2uQfso_Y1eYd1-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-17">
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="630" as="targetPoint" />
+            <mxPoint x="465" y="630" as="targetPoint" />
+            <mxPoint x="620" y="800" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-17" value="remote access denied?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -80,7 +81,7 @@
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="570" as="targetPoint" />
+            <mxPoint x="470" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-23" value="Username and password required?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -98,8 +99,22 @@
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-38" value="git fetch &amp;lt;remote&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="295" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-40" target="SjJ99Vo2uQfso_Y1eYd1-42">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-40" target="SjJ99Vo2uQfso_Y1eYd1-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-45" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SjJ99Vo2uQfso_Y1eYd1-43">
+          <mxGeometry x="-0.2145" y="-3" relative="1" as="geometry">
+            <mxPoint x="-19" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-46" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-40" target="SjJ99Vo2uQfso_Y1eYd1-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-40" value="Gibt es Änderungen?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="380" width="139" height="80" as="geometry" />
@@ -107,8 +122,11 @@
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-42" value="Join two or more development histories together" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-44" value="git merge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-44" value="git merge &amp;lt;remote&amp;gt;/&amp;lt;branch&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-48" value="print &#39;no changes in the remote repo&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="530" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
