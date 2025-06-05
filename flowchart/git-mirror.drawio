@@ -30,7 +30,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-2" value="Download objects and refs from origin repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="219" y="444.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="199.5" y="444.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-3" target="SjJ99Vo2uQfso_Y1eYd1-23">
           <mxGeometry relative="1" as="geometry" />
