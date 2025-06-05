@@ -106,7 +106,7 @@
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-36" value="target repo: Gitea" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="50" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-38" value="git fetch &amp;lt;remote&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-38" value="git fetch &amp;lt;origin remote&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="459.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-40" target="SjJ99Vo2uQfso_Y1eYd1-42">
@@ -165,7 +165,7 @@
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-63" value="Update remote refs along with associated objects to existing target repo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="825" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-64" value="git push &amp;lt;remote&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SjJ99Vo2uQfso_Y1eYd1-64" value="&lt;div&gt;git push &amp;lt;target&amp;nbsp;remote&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="840" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SjJ99Vo2uQfso_Y1eYd1-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SjJ99Vo2uQfso_Y1eYd1-66" target="SjJ99Vo2uQfso_Y1eYd1-69">
