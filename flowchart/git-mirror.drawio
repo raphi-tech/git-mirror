@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.4">
   <diagram name="Page-1" id="1obYR7CRznuvn3wxZ2J3">
-    <mxGraphModel dx="329" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-28" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-7" value="&lt;div&gt;Download objects&lt;/div&gt;&lt;div&gt;and refs from origin repository, prune unreachable objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="1190" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-12" target="v1fekIy8P3kQK3e0y9ms-14">
           <mxGeometry relative="1" as="geometry" />
@@ -82,11 +82,11 @@
           <mxGeometry x="1860" y="540" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-28" value="git fetch -p origin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1205" width="110" height="30" as="geometry" />
+          <mxGeometry x="1410" y="1325" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-31" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-32" target="v1fekIy8P3kQK3e0y9ms-44">
           <mxGeometry x="-0.4286" y="12" relative="1" as="geometry">
-            <mxPoint x="1480" y="1352.2499999999998" as="targetPoint" />
+            <mxPoint x="1480" y="1472.2499999999998" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -99,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-32" value="&lt;div&gt;Are there&lt;/div&gt;&lt;div&gt;&amp;nbsp;any&amp;nbsp;changes in the origin&lt;/div&gt;&lt;div&gt;repo?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="1310" width="160" height="84.5" as="geometry" />
+          <mxGeometry x="1250" y="1430" width="160" height="84.5" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-38" target="v1fekIy8P3kQK3e0y9ms-87">
           <mxGeometry relative="1" as="geometry" />
@@ -120,16 +120,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-44" value="Update remote refs along with associated objects to target repo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="1317" width="120" height="70.5" as="geometry" />
+          <mxGeometry x="1470" y="1437" width="120" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-45" value="&lt;div&gt;git push --mirror&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1337.25" width="100" height="30" as="geometry" />
+          <mxGeometry x="1600" y="1457.25" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-49" target="v1fekIy8P3kQK3e0y9ms-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1650" y="1485" />
-              <mxPoint x="1650" y="1485" />
+              <mxPoint x="1650" y="1605" />
+              <mxPoint x="1650" y="1605" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -147,24 +147,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-49" value="&lt;div&gt;username&lt;/div&gt;&lt;div&gt;and password&lt;/div&gt;&lt;div&gt;required?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="1450" width="160" height="70" as="geometry" />
+          <mxGeometry x="1450" y="1570" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-51" target="v1fekIy8P3kQK3e0y9ms-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-51" value="username" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1455" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="1575" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-53" target="v1fekIy8P3kQK3e0y9ms-98">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1730" y="1700" />
-              <mxPoint x="1410" y="1700" />
+              <mxPoint x="1730" y="1820" />
+              <mxPoint x="1410" y="1820" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-53" value="&lt;div&gt;password or&amp;nbsp;&lt;/div&gt;&lt;div&gt;access token&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1580" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-54" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1880" y="660" width="120" height="80" as="geometry" />
@@ -191,14 +191,14 @@
         <mxCell id="v1fekIy8P3kQK3e0y9ms-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-75" target="v1fekIy8P3kQK3e0y9ms-98">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1095" y="1700" />
+              <mxPoint x="1095" y="1820" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-75" value="&lt;div&gt;print &#39;no changes&lt;/div&gt;&lt;div&gt;since the last update&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="1322.25" width="150" height="60" as="geometry" />
+          <mxGeometry x="1020" y="1442.25" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v1fekIy8P3kQK3e0y9ms-81" value="15 16 * * Tue-Fri" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="v1fekIy8P3kQK3e0y9ms-81" value="15 16 * * 2-5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1115" y="795" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-87" target="v1fekIy8P3kQK3e0y9ms-89">
@@ -210,7 +210,7 @@
         <mxCell id="v1fekIy8P3kQK3e0y9ms-89" value="&lt;div&gt;Update repository&lt;/div&gt;&lt;div&gt;mirror&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v1fekIy8P3kQK3e0y9ms-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-90" target="v1fekIy8P3kQK3e0y9ms-7">
+        <mxCell id="v1fekIy8P3kQK3e0y9ms-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-90" target="v1fekIy8P3kQK3e0y9ms-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-90" value="&lt;div&gt;Update&amp;nbsp;&lt;/div&gt;&lt;div&gt;repository mirror&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -232,7 +232,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-98" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="1670" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1fekIy8P3kQK3e0y9ms-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-103" target="v1fekIy8P3kQK3e0y9ms-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v1fekIy8P3kQK3e0y9ms-103" value="change into local folder of repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
