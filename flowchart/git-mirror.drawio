@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.4">
   <diagram name="Page-1" id="1obYR7CRznuvn3wxZ2J3">
-    <mxGraphModel dx="441" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="1280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="v1fekIy8P3kQK3e0y9ms-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-7" target="v1fekIy8P3kQK3e0y9ms-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v1fekIy8P3kQK3e0y9ms-7" value="Download objects and refs from origin repository, prune unreachable objects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v1fekIy8P3kQK3e0y9ms-7" value="&lt;div&gt;Download objects&lt;/div&gt;&lt;div&gt;and refs from origin repository, prune unreachable objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v1fekIy8P3kQK3e0y9ms-12" target="v1fekIy8P3kQK3e0y9ms-14">
@@ -195,6 +195,9 @@
         </mxCell>
         <mxCell id="v1fekIy8P3kQK3e0y9ms-75" value="&lt;div&gt;print &#39;no changes&lt;/div&gt;&lt;div&gt;since the last update&#39;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="912.25" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1fekIy8P3kQK3e0y9ms-81" value="The whole script will repeat itself at a fixed (user-given) interval" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1360" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
