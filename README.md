@@ -5,7 +5,8 @@ Periodically and automatically bring a select repository up to date with the cur
 ## How to use it
 Make sure you setup SSH authentication for both repositories.
 
-For that you need to generate a new SSH key on your local machine. After you generate the key, you have to add the public key to your account on the platforms your repositories will be on to enable authentication for Git operations over SSH.
+For that you need to generate a new SSH key on your local machine. 
+After you generate the key, you have to add the public key to your account on the platforms your repository is on to enable authentication for Git operations over SSH.
 
 ### Generate a new SSH key
 1. Open Git Bash
@@ -13,4 +14,13 @@ For that you need to generate a new SSH key on your local machine. After you gen
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-See https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows for an instruction.
+When you're prompted to "Enter a file in which to save the key", type the default file location and replace id_ALGORITHM with your custom key name.
+
+> Enter file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM): [/c/Users/YOU/.ssh/custom_key_name]
+
+3. At the prompt, type a secure passphrase or leave empty for no passphrase. 
+
+> Enter passphrase (empty for no passphrase): [Type a passphrase]
+> Enter same passphrase again: [Type passphrase again]
+
+See https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows as a reference.
