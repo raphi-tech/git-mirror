@@ -19,7 +19,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 When you're prompted to "Enter a file in which to save the key", press Enter if no SSH key exists yet or put in the default file location and replace id_ed25519 with your custom key name.
 
-> Enter file in which to save the key (/c/Users/YOU/.ssh/id_ed25519): [Enter] OR [/c/Users/YOU/.ssh/custom_key_name]
+> Enter file in which to save the key (C:\Users\YOU/.ssh/id_ed25519): [Enter] OR [C:\Users\YOU/.ssh/custom_key_name]
 
 
 3. At the prompt, type a secure passphrase or leave empty for no passphrase.
@@ -65,6 +65,8 @@ fi
 
 unset env
 ```
+
+4. Test 
 
 ### Add public key to the platform your repository is on, according to their documentation
 
