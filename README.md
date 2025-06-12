@@ -66,7 +66,6 @@ fi
 unset env
 ```
 
-4. Test 
 
 ### Add public key to the platform your repository is on, according to their documentation
 
