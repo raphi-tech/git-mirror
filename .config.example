@@ -1,0 +1,9 @@
+origin_repo=""
+target_repo=""
+
+username=""
+project_token=""
+
+cron_job="* * * * *"
+
+origin_repo="http://$username:$project_token@gitlab.lan/raphael-von-moos/git-mirror-test-repo.git"
