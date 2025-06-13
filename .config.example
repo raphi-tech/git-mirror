@@ -1,9 +1,24 @@
-origin_repo=""
-target_repo=""
+url_http_origin_repo=""
+url_http_target_repo=""
 
-username=""
-project_token=""
 
+origin_repo_domain=""
+origin_repo_username=""
+origin_repo_token=""
+origin_repo_name=""
+
+target_repo_domain=""
+target_repo_username=""
+target_repo_token=""
+target_repo_name=""
+
+
+url_http_auth_origin_repo=""
+url_ssh_target_repo=""
+
+
+path_to_project=""
+path_to_log=""
 cron_job="* * * * *"
 
-origin_repo="http://$username:$project_token@gitlab.lan/raphael-von-moos/git-mirror-test-repo.git"
+local_folder_path=""
