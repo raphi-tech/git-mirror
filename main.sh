@@ -32,18 +32,18 @@ do
     fi
 done
 
-git clone --mirror "$url_origin_repo" "$local_folder_path"
+git clone --mirror "$url_origin_repo" "$path_to_cloned_repo"
 
 # Check if local repo folder was successfully created
-git ls-remote "$local_folder_path" -q
+git ls-remote "$path_to_cloned_repo" -q
 
 if [ $? -eq 0 ]; then
-    cd "$local_folder_path"
+    cd "$path_to_cloned_repo"
 
     git remote set-url --push origin "$url_target_repo"
 
     # Cron job
-    (crontab -l ; echo "$cron_job cd $path_to_project && bash update_repository_mirror.sh >> $path_to_log/cron_job.log 2>&1") | crontab -
+    (crontab -l ; echo "$cron_job cd $path_to_script && bash update_repository_mirror.sh >> $path_to_log/cron_job.log 2>&1") | crontab -
 else
     echo "The local repository folder has not been created, please provide a valid authentication method."
 fi
