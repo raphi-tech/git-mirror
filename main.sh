@@ -10,10 +10,9 @@ do
 	url_target_repo=$url_ssh_target_repo
 	break
     elif [ "$auth_method" == "http" ]; then
+	read -p "Do you use git credential manager? [y] or [n]: " uses_manager
 	while true
 	do
-	    read -p "Do you use git credential manager? [y] or [n]: " uses_manager
-
 	    if [ "$uses_manager" == "y" ]; then
 		url_origin_repo=$url_http_origin_repo
 		url_target_repo=$url_http_target_repo
