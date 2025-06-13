@@ -8,7 +8,7 @@ Rename `.config.example` to `.config` and configure your variables according to 
 
 Please keep in mind, that as of right now, you have to use the same authentication method for both repositories, if you copy this script. Also keep in mind that using this script requires you to having set up the authentication methods beforehand. Use the information below to set it up. 
 
-As already mentioned, you can use HTTP connection without a credential manager. This bears the risk, that your credentials are directly written and shown inside of the git URL you use to fetch and push. Use this at your own risk.
+As already mentioned, you can use HTTP connection without a credential manager. This bears the risk, that your credentials are directly written and shown inside of the git URL you use to fetch and push. You can either use a token or your login password of the platform. Use this at your own risk.
 
 The .config file is included in the .gitignore, so it won't get shown on your remote repository, if you choose to store it there.
 
