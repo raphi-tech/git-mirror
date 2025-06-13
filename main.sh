@@ -68,7 +68,7 @@ if [ $? -eq 0 ]; then
     git remote set-url --push origin "$url_target_repo"
 
     # Cron job
-    (crontab -l ; echo "$cron_job cd $path_to_script && bash update_repository_mirror.sh >> $path_to_log/cron_job.log 2>&1") | crontab -
+    (crontab -l ; echo "$cron_job cd $path_to_script && { echo -e \"\n-- \$(date '+\Y-%m-%d %H:%M:%S') --\"; bash update_repository_mirror.sh; } >> $path_to_log/cron_job.log 2>&1") | crontab -
 else
     echo "The local repository folder has not been created, please provide a valid authentication method."
 fi
