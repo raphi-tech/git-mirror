@@ -1,6 +1,6 @@
 . .config
 
-cd ~/"$local_folder_name"
+cd "$local_folder_name"
 
 git fetch -p origin
 
