@@ -13,8 +13,11 @@ target_repo_token=""
 target_repo_name=""
 
 
-url_http_auth_origin_repo=""
-url_ssh_target_repo=""
+url_http_auth_origin_repo="http://$origin_repo_username:$origin_repo_token@$origin_repo_domain/$origin_repo_username/$origin_repo_name.git"
+url_http_auth_target_repo="http://$target_repo_username:$target_repo_token@$target_repo_domain/$target_repo_username/$target_repo_name.git"
+
+url_ssh_origin_repo="git@$origin_repo_domain:$origin_repo_username/$origin_repo_name.git"
+url_ssh_target_repo="git@$target_repo_domain:$target_repo_username/$target_repo_name.git"
 
 
 path_to_project=""
