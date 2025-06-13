@@ -20,8 +20,8 @@ url_ssh_origin_repo="git@$origin_repo_domain:$origin_repo_username/$origin_repo_
 url_ssh_target_repo="git@$target_repo_domain:$target_repo_username/$target_repo_name.git"
 
 
-path_to_project=""
+path_to_script=""
 path_to_log=""
 cron_job="* * * * *"
 
-local_folder_path=""
+path_to_cloned_repo=""
