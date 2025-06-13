@@ -1,6 +1,6 @@
 . .config
 
-cd "$local_folder_name"
+cd "$path_to_cloned_repo"
 
 git fetch -p origin
 
