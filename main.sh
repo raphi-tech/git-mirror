@@ -1,35 +1,61 @@
 # Import configuration variables
 . .config
 
-read -p "Which authentication method do you want to use? [ssh] or [http]: " auth_method 
+# Origin repo authentication
+read -p "Which authentication method do you want to use for the origin repo? [ssh] or [http]: " auth_method_origin
 
 while true
 do
-    if [ "$auth_method" == "ssh" ]; then
+    if [ "$auth_method_origin" == "ssh" ]; then
 	url_origin_repo=$url_ssh_origin_repo
-	url_target_repo=$url_ssh_target_repo
 	break
-    elif [ "$auth_method" == "http" ]; then
-	read -p "Do you use git credential manager? [y] or [n]: " uses_manager
+    elif [ "$auth_method_origin" == "http" ]; then
+	read -p "Do you use git credential manager? [y] or [n]: " uses_manager_origin
 	while true
 	do
-	    if [ "$uses_manager" == "y" ]; then
+	    if [ "$uses_manager_origin" == "y" ]; then
 		url_origin_repo=$url_http_origin_repo
-		url_target_repo=$url_http_target_repo
 		break
-	    elif [ "$uses_manager" == "n" ]; then
+	    elif [ "$uses_manager_origin" == "n" ]; then
 		url_origin_repo=$url_http_auth_origin_repo
-		url_target_repo=$url_http_auth_target_repo
 		break
 	    else
-		read -p "Please provide a valid input [y] or [n]: " uses_manager
+		read -p "Please provide a valid input [y] or [n]: " uses_manager_origin
 	    fi
 	done
 	break
     else
-	read -p "Please provide a valid input [ssh] or [http]: " auth_method
+	read -p "Please provide a valid input [ssh] or [http]: " auth_method_origin
     fi
 done
+
+# Target repo authentication
+read -p "Which authentication method do you want to use for the target repo? [ssh] or [http]: " auth_method_target 
+while true
+do
+    if [ "$auth_method_target" == "ssh" ]; then
+	url_target_repo=$url_ssh_target_repo
+	break
+    elif [ "$auth_method_target" == "http" ]; then
+	read -p "Do you use git credential manager? [y] or [n]: " uses_manager_target
+	while true
+	do
+	    if [ "$uses_manager_target" == "y" ]; then
+		url_target_repo=$url_http_target_repo
+		break
+	    elif [ "$uses_manager_target" == "n" ]; then
+		url_target_repo=$url_http_auth_target_repo
+		break
+	    else
+		read -p "Please provide a valid input [y] or [n]: " uses_manager_target
+	    fi
+	done
+	break
+    else
+	read -p "Please provide a valid input [ssh] or [http]: " auth_method_target
+    fi
+done
+
 
 git clone --mirror "$url_origin_repo" "$path_to_cloned_repo"
 
