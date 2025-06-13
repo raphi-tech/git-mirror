@@ -6,7 +6,7 @@ Periodically and automatically bring a select repository up to date with the cur
 
 Rename `.config.example` to `.config` and configure your variables according to your needs. It is right now possible to use SSH, HTTP with the credential manager and HTTP without a credential manager. 
 
-Please keep in mind, that as of right now, you have to use the same authentication method for both repositories, if you copy this script. Also keep in mind that using this script requires you to having set up the authentication methods beforehand. Use the information below to set it up. 
+Keep in mind that using this script requires you to having set up the authentication methods beforehand. Use the information below to set it up. 
 
 As already mentioned, you can use HTTP connection without a credential manager. This bears the risk, that your credentials are directly written and shown inside of the git URL you use to fetch and push. You can either use a token or your login password of the platform. Use this at your own risk.
 
