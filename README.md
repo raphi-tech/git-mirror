@@ -15,6 +15,8 @@ The .config file is included in the .gitignore, so it won't get shown on your re
 ## Authentication setups (Windows)
 
 ### HTTP Authentication - Git Credential Manager
+
+Ensure you have the credential manager running, which you can do with the following command:
 ```
 git config --global credential.helper manager
 ```
