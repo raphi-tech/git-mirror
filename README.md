@@ -12,12 +12,14 @@ As already mentioned, you can use HTTP connection without a credential manager. 
 
 The .config file is included in the .gitignore, so it won't get shown on your remote repository, if you choose to store it there.
 
+## Authentication setups (Windows)
+
 ### HTTP Authentication - Git Credential Manager
 ```
 git config --global credential.helper manager
 ```
 
-## Authentication setups (Windows)
+
 ### SSH Authentication
 Make sure you setup SSH authentication for both repositories.
 
