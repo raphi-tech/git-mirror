@@ -2,7 +2,7 @@
 
 Periodically and automatically bring a select repository up to date with the current state of an actively worked on repository. This is scheduled through a cron job who gets a cloned mirror of the origin repository and mirror-pushes it to the select repository. This process ensures that all branches, tags, and commits are replicated in the new repository.
 
-## How to use it (Windows)
+## How to use it
 
 Rename `.config.example` to `.config` and configure your variables according to your needs. It is right now possible to use SSH, HTTP with the credential manager and HTTP without a credential manager. 
 
@@ -17,6 +17,7 @@ The .config file is included in the .gitignore, so it won't get shown on your re
 git config --global credential.helper manager
 ```
 
+## Authentication setups (Windows)
 ### SSH Authentication
 Make sure you setup SSH authentication for both repositories.
 
