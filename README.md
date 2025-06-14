@@ -4,17 +4,19 @@ Periodically and automatically bring a select repository up to date with the cur
 
 ## How to use it
 
+Make sure you have WSL installed if you are using Windows.
+
 Rename `.config.example` to `.config` and configure your variables according to your needs. It is right now possible to use SSH, HTTP with the credential manager and HTTP without a credential manager. If connecting through https, don't forget to change http to https in your config file.
 
 Keep in mind that using this script requires you to having set up the authentication methods beforehand. Use the information below to set it up. 
 
 As already mentioned, you can use HTTP connection without a credential manager. This means that your credentials are directly written and shown inside of the git URL you use to fetch and push. You can either use a token or your login password of the platform. Use this at your own risk.
 
-After you setup everything, simply run the script from within the 'path-to-script' directory and type `bash main.sh` in the command line. If you are on windows, install WSL and first type `bash` in the command line to enter bash shell and execute the script there.
+After you setup everything, simply run the script from within the 'path-to-script' directory and type `bash main.sh` in the command line. If you are on windows, first type `bash` in the command line to enter bash shell and execute the script there.
 
 The .config file is included in the .gitignore, so it won't get shown on your remote repository, if you choose to store it there.
 
-## Authentication setups (Windows)
+## Authentication setups (WSL on Windows)
 
 ### HTTP Authentication - Git Credential Manager
 
@@ -24,7 +26,7 @@ git config --global credential.helper manager
 ```
 
 
-### SSH Authentication (Windows)
+### SSH Authentication
 
 Keep in mind:
 > With SSH keys, if someone gains access to your computer, the attacker can gain access to every system that uses that key. To add an extra layer of security, you can add a passphrase to your SSH key. To avoid entering the passphrase every time you connect, you can securely cache the key in the SSH agent.
@@ -95,6 +97,6 @@ GitLab: [Add an SSH key to your GitLab account](https://docs.gitlab.com/user/ssh
 GitHub: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ## References
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows (see also for: setup in MacOS or Linux)
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows (see also for: SSH setup in MacOS or Linux)
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases (see also for: adding and changing a passphrase)
