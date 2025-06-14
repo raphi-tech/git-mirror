@@ -91,8 +91,8 @@ unset env
 ### Add public key to the platform your repository is on, according to their documentation
 
 GitLab: [Add an SSH key to your GitLab account](https://docs.gitlab.com/user/ssh/#add-an-ssh-key-to-your-gitlab-account)
+
 GitHub: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-Gitea: 
 
 ## References
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows (see also for: setup in MacOS or Linux)
