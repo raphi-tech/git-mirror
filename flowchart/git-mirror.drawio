@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.4">
   <diagram name="Page-1" id="1obYR7CRznuvn3wxZ2J3">
-    <mxGraphModel dx="2540" dy="2180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,9 +240,6 @@
         <mxCell id="v1fekIy8P3kQK3e0y9ms-103" value="change into local folder of repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1285" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eQJna6UgWkJ4xnuHR7GS-4" value="&lt;div&gt;Which authentication&lt;/div&gt;&lt;div&gt;method do you want to use&amp;nbsp;&lt;/div&gt;&lt;div&gt;for the target repo?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="875" y="480" width="250" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-7" target="eQJna6UgWkJ4xnuHR7GS-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -270,7 +267,7 @@
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-9" value="is input &#39;ssh&#39;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="310" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eQJna6UgWkJ4xnuHR7GS-10" value="set url to ssh url from config file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-10" value="set web url to ssh url from config file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="420" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-38" target="eQJna6UgWkJ4xnuHR7GS-43">
@@ -281,8 +278,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eQJna6UgWkJ4xnuHR7GS-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-38" target="eQJna6UgWkJ4xnuHR7GS-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-38" target="eQJna6UgWkJ4xnuHR7GS-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-51" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eQJna6UgWkJ4xnuHR7GS-47">
           <mxGeometry x="0.0728" y="3" relative="1" as="geometry">
@@ -298,17 +297,75 @@
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-43" value="&#39;Do you use git credential manager? [y] or [n]&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eQJna6UgWkJ4xnuHR7GS-46" value="set url to http url with auth details from config file" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-48" target="eQJna6UgWkJ4xnuHR7GS-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-48" value="import config file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1460" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eQJna6UgWkJ4xnuHR7GS-52" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="600" width="80" height="80" as="geometry" />
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-52" target="eQJna6UgWkJ4xnuHR7GS-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-58" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eQJna6UgWkJ4xnuHR7GS-57">
+          <mxGeometry x="-0.3226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-52" target="eQJna6UgWkJ4xnuHR7GS-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-61" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eQJna6UgWkJ4xnuHR7GS-60">
+          <mxGeometry x="-0.1126" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-52" value="is input &#39;y&#39;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-56" value="set web url to http url from config file" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-59" target="eQJna6UgWkJ4xnuHR7GS-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-64" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eQJna6UgWkJ4xnuHR7GS-63">
+          <mxGeometry x="-0.4721" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-59" target="eQJna6UgWkJ4xnuHR7GS-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-69" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eQJna6UgWkJ4xnuHR7GS-68">
+          <mxGeometry x="-0.4751" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-59" value="is input &#39;n&#39;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-62" value="&lt;br&gt;set web url to http url with auth details from config file&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-65" target="eQJna6UgWkJ4xnuHR7GS-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-65" value="&#39;Please provide a valid input [ssh] or [http]: &#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-67" target="eQJna6UgWkJ4xnuHR7GS-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1195" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-67" value="&#39;Please provide a valid input [y] or [n]: &#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
