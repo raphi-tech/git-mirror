@@ -446,6 +446,9 @@
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-114" value="print &#39;The local repository folder has not been created, please provide a valid authentication method.&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1700" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-116" target="eQJna6UgWkJ4xnuHR7GS-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-116" value="&lt;div&gt;Execute&lt;/div&gt;&lt;div&gt;script for&amp;nbsp;&lt;/div&gt;&lt;div&gt;cronjob&lt;/div&gt;&amp;nbsp;from file" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1260" y="2610" width="120" height="60" as="geometry" />
         </mxCell>
@@ -463,6 +466,15 @@
         </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-126" value="&lt;div&gt;Write out current date and time in&lt;/div&gt;&lt;div&gt;-- YYYY-mm-dd HH:MM:SS -- format&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eQJna6UgWkJ4xnuHR7GS-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQJna6UgWkJ4xnuHR7GS-128" target="eQJna6UgWkJ4xnuHR7GS-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="2390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1740" y="2660" />
+              <mxPoint x="1740" y="2400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eQJna6UgWkJ4xnuHR7GS-128" value="Execute update repository script from file" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="2630" width="120" height="60" as="geometry" />
