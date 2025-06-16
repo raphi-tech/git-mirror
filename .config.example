@@ -1,11 +1,13 @@
-url_http_origin_repo=""
+# Clone web URLs from remote repo
+url_http_origin_repo="" #https://github.com/raphi-tech/git-mirror.git
 url_http_target_repo=""
 
 
-origin_repo_domain=""
-origin_repo_username=""
-origin_repo_token=""
-origin_repo_name=""
+# Credentials for using authentication inside the URL
+origin_repo_domain="" #github.com
+origin_repo_username="" #raphi-tech
+origin_repo_token="" #access-token or password
+origin_repo_name="" #git-mirror
 
 target_repo_domain=""
 target_repo_username=""
@@ -13,15 +15,23 @@ target_repo_token=""
 target_repo_name=""
 
 
+# Don't change, unless you want to use https instead of http
 url_http_auth_origin_repo="http://$origin_repo_username:$origin_repo_token@$origin_repo_domain/$origin_repo_username/$origin_repo_name.git"
 url_http_auth_target_repo="http://$target_repo_username:$target_repo_token@$target_repo_domain/$target_repo_username/$target_repo_name.git"
 
+# Don't change, configure structure if necessary
 url_ssh_origin_repo="git@$origin_repo_domain:$origin_repo_username/$origin_repo_name.git"
 url_ssh_target_repo="git@$target_repo_domain:$target_repo_username/$target_repo_name.git"
 
 
-absolute_path_to_script=""
+# Put in the absolute path to this script (where the .config file is in)
+absolute_path_to_script="" #/home/user/git-mirror
+
+# Put in the absolute path to where you want your log file to be
 absolute_path_to_log=""
+
+# Change to however often you want to periodically update your target repository
 cron_job="* * * * *"
 
+# Put in the absolute path to where you want your cloned, mirrored repo to sit (path is used f.e. as a destination for git clone of the origin repo)
 absolute_path_to_cloned_repo=""
