@@ -1,7 +1,7 @@
 # Import configuration variables
 . .config
 
-# Origin repo authentication
+# User defined origin repo authentication
 read -p "Which authentication method do you want to use for the origin repo? [ssh] or [http]: " auth_method_origin
 
 while true
@@ -29,7 +29,7 @@ do
     fi
 done
 
-# Target repo authentication
+# User defined target repo authentication
 read -p "Which authentication method do you want to use for the target repo? [ssh] or [http]: " auth_method_target 
 while true
 do
@@ -57,17 +57,19 @@ do
 done
 
 
+# Create a bare mirrored clone of the origin repo
 git clone --mirror "$url_origin_repo" "$absolute_path_to_cloned_repo"
 
-# Check if local repo folder was successfully created
+# Check if local repo folder was successfully created (returns 0 if successful)
 git ls-remote "$absolute_path_to_cloned_repo" -q
 
 if [ $? -eq 0 ]; then
     cd "$absolute_path_to_cloned_repo"
 
+    # Set push location to mirror (target) repository:
     git remote set-url --push origin "$url_target_repo"
 
-    # Cron job
+    # Cron job which updates the repository mirror through a Cronjob script
     (crontab -l ; echo "$cron_job cd $absolute_path_to_script && bash cronjob_script.sh") | crontab -
 else
     echo "The local repository folder has not been created, please provide a valid authentication method."
