@@ -1,6 +1,6 @@
 # Repository mirror
 
-Periodically and automatically bring a select repository up to date with the current state of an actively worked on repository. This is scheduled through a cron job who gets a cloned mirror of the origin repository and mirror-pushes it to the select repository. This process ensures that all branches, tags, and commits are replicated in the new repository.
+Periodically and automatically bring a select repository up to date with the current state of an actively worked on repository. This is scheduled through a cron job who gets a cloned mirror of the origin repository and mirror-pushes it to the select repository. This process ensures that all branches, tags, and commits are replicated in the new repository, so you have a total copy of it.
 
 ## How to use it
 
@@ -97,6 +97,8 @@ GitLab: [Add an SSH key to your GitLab account](https://docs.gitlab.com/user/ssh
 GitHub: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ## References
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows (see also for: SSH setup in MacOS or Linux)
+[SSH Setup in Windows, Linux or MacOS](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows)
 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases (see also for: adding and changing a passphrase)
+[Adding and changing passphrases](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases)
+
+[Git documentation about mirroring](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt-code--mirrorcode)
