@@ -27,7 +27,7 @@ url_ssh_target_repo="git@$target_repo_domain:$target_repo_username/$target_repo_
 # Put in the absolute path to this script (where the .config file is in)
 absolute_path_to_script="" #/home/user/git-mirror
 
-# Put in the absolute path to where you want your log file to be
+# Put in the absolute path to where you want your log file to be, MUST be the same as your path to the script
 absolute_path_to_log=""
 
 # Change to however often you want to periodically update your target repository
